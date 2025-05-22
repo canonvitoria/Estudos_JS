@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+section {
+    background-color: white;
+    width: 550px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+#flista{
+    width: 150px;
+}
+
+div {
+    padding: 10px;
+}
+
+#itxt {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bolder;   
+}
