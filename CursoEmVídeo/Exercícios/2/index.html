@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Verificador de idade</h1>
+
+    <main>
+
+        <p>Ano de Nascimento: 
+        <input type="number" name="nmb" id="inmb"></p>
+
+        <p>Sexo: 
+            <input type="radio" name="sexo" id="isexo" checked>
+            <label for="isexo">Feminino</label>
+
+            <input type="radio" name="sexo" id="isexo">
+            <label for="isexo">Masculino</label>
+        </p>
+
+        <p id="botao"><input type="button" value="Verificar" onclick="verificar()"></p>
+
+        <div id="res"><strong>Preencha os dados acima para ver o resultado!</strong></div>
+
+        <div><img id="img" src="imagens/crianca-menina.png" alt="criança menina"></div>
+
+    </main>
+
+    <footer>
+        <p>&copy;CanonVitória</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
